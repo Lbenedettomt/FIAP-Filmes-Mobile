@@ -1,6 +1,6 @@
 <h1 align="center">FIAP-Filmes-Mobile</h1>
 <p align="center">
-    <img src="https://secure.meetupstatic.com/photos/event/a/0/5/0/highres_488201040.jpeg" width="400">
+    <img src="https://github.com/Lbenedettomt/Lbenedettomt.github.io/blob/main/img/logo.png" alt="logo" width="400">
 </p>
 
 <p align="center">
