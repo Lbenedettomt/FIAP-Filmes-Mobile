@@ -15,7 +15,7 @@ export function UltimoVistoProvider({ children }) {
         setFilmesUltimoVisto(newList);
       } else {
         let newList = FilmesUltimoVisto;
-        newList.shift(); // Removes first item; oldest one.
+        newList.shift();
         newList.push(content);
         setFilmesUltimoVisto(newList);
       }
@@ -26,7 +26,7 @@ export function UltimoVistoProvider({ children }) {
         setSeriesUltimoVisto(newList);
       } else {
         let newList = SeriesUltimoVisto;
-        newList.shift(); // Removes first item; oldest one.
+        newList.shift();
         newList.push(content);
         setSeriesUltimoVisto(newList);
       }

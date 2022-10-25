@@ -11,7 +11,7 @@ export default function Favoritos() {
   if (quantity === 0) {
     return (
       <View style={styles.container}>
-        <Text style={styles.text}>Adicione ao menos um filme aos favoritos para exibi-lo(s) nessa aba.</Text>
+        <Text style={styles.text}>Adicione um filme ou série à sua lista de favoritos para ser exibido aqui.</Text>
       </View>
     );
   }
@@ -22,13 +22,13 @@ export default function Favoritos() {
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Favoritos</Text>
-      <Text style={styles.text}>{'Quantidade de favoritados: ' + quantity}</Text>
+      <Text style={styles.text}>{'Quantidade de favoritos: ' + quantity}</Text>
       <View style={Filmes.length ? { display: 'block' } : { display: 'none' }}>
         <Title text='Filmes'></Title>
         <FlatList data={Filmes} renderItem={({ item }) => <Card content={item}></Card>} horizontal></FlatList>
       </View>
       <View style={Series.length ? { display: 'block' } : { display: 'none' }}>
-        <Title text='Series'></Title>
+        <Title text='Séries'></Title>
         <FlatList data={Series} renderItem={({ item }) => <Card content={item}></Card>} horizontal></FlatList>
       </View>
     </View>

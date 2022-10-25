@@ -10,7 +10,7 @@ export default function UltimoVisto() {
 
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Últimos catálogos acessados..</Text>
+      <Text style={styles.title}>Últimos conteúdos acessados</Text>
       <View style={FilmesUltimoVisto.length ? { display: 'block' } : { display: 'none' }}>
         <Title text='Filmes'></Title>
         <FlatList data={FilmesUltimoVisto} renderItem={({ item }) => <Card content={item}></Card>} horizontal></FlatList>
