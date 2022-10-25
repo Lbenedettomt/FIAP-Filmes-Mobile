@@ -1,9 +1,9 @@
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import { FavoritesProvider } from '../contexts/FavoritesContext';
-import Home from '../views/Home';
-import Detail from '../views/Detail';
-import Favoritos from '../views/Favoritos';
-import UltimoVisto from '../views/UltimoVisto';
+
+import Home from '../screens/Home';
+import Detail from '../screens/Detail';
+import Favoritos from '../screens/Favoritos';
+import UltimoVisto from '../screens/UltimoVisto';
 
 export default function HomeRoute() {
   const Stack = createNativeStackNavigator();

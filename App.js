@@ -1,9 +1,9 @@
 import HomeRoute from './routes/HomeRoute';
 import { Ionicons, AntDesign } from '@expo/vector-icons';
 
-import Sobre from './views/Sobre';
-import Favoritos from './views/Favoritos';
-import UltimoVisto from './views/UltimoVisto';
+import Sobre from './screens/Sobre';
+import Favoritos from './screens/Favoritos';
+import UltimoVisto from './screens/UltimoVisto';
 
 import { NavigationContainer } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';

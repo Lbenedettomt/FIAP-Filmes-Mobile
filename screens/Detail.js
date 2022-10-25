@@ -1,6 +1,7 @@
 import { useNavigation } from '@react-navigation/native';
 import { StyleSheet, Text, View, TouchableOpacity, Image } from 'react-native';
 import { MaterialIcons } from '@expo/vector-icons';
+import { Button } from 'react-native-web';
 
 export default function Detail({ route }) {
   const navigation = useNavigation();
@@ -20,7 +21,7 @@ export default function Detail({ route }) {
         </View>
         <Text style={styles.text}>{contentSelected.overview}</Text>
         <TouchableOpacity onPress={() => navigation.goBack()}>
-          <Text style={styles.back}>Voltar</Text>
+          <Text style={styles.button}>Voltar</Text>
         </TouchableOpacity>
       </View>
     </View>
@@ -40,13 +41,16 @@ const styles = StyleSheet.create({
     color: '#fff',
     marginVertical: 15,
   },
-  back: {
-    display: 'flex',
+  button: {
     color: '#fff',
-    backgroundColor: 'red',
-    alignSelf: 'center',
+    backgroundColor: '#F06',
+    padding: 6,
     textAlign: 'center',
-    width: '40%',
+    width: 180,
+    alignSelf: 'center',
+    borderRadius: 6,
+    overflow: 'hidden',
+    zIndex: 999,
   },
   titleContainer: {
     marginTop: 10,
