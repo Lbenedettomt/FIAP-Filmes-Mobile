@@ -1,6 +1,6 @@
 <h1 align="center">FIAP-Filmes-Mobile</h1>
 <p align="center">
-    <img src="https://secure.meetupstatic.com/photos/event/a/0/5/0/highres_488201040.jpeg" width="300">
+    <img src="https://secure.meetupstatic.com/photos/event/a/0/5/0/highres_488201040.jpeg" width="400">
 </p>
 
 <p align="center">
@@ -26,6 +26,9 @@ Entregável do Checkpoint 3 de `Advanced Programming & Mobile Dev`, professor:
 <p align="center">
     <a href="https://reactnative.dev" target="_blank">
         <img src="https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React Native">
+    </a>
+    <a href="https://expo.dev" target="_blank">
+        <img src="https://img.shields.io/badge/Expo-20232A?style=for-the-badge&logo=expo&logoColor=61DAFB" alt="Expo">
     </a>
     <a href="https://developer.mozilla.org/docs/Web/JavaScript" target="_blank">
         <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" alt="JavaScript">
