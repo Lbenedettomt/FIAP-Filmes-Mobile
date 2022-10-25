@@ -1,6 +1,7 @@
 <h1 align="center">FIAP-Filmes-Mobile</h1>
 <p align="center">
     <img src="https://secure.meetupstatic.com/photos/event/a/0/5/0/highres_488201040.jpeg" alt="logo" width="400">
+    <img src="https://img.shields.io/static/v1?label=STATUS&message=EM%20ANDAMENTO&color=yellow&style=for-the-badge" alt="Status">
 </p>
 
 ### Tópicos
@@ -32,7 +33,6 @@ Entregável do Checkpoint 3 de `Advanced Programming & Mobile Dev`, professor:
     <a href="https://code.visualstudio.com" target="_blank">
         <img src="https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white" alt="VSCode">
     </a>
-    <img src="https://img.shields.io/static/v1?label=STATUS&message=EM%20ANDAMENTO&color=yellow&style=for-the-badge" alt="Status">
 </p>
 
 ## Progresso :arrow_up:
