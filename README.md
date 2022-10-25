@@ -1,6 +1,9 @@
 <h1 align="center">FIAP-Filmes-Mobile</h1>
 <p align="center">
     <img src="https://secure.meetupstatic.com/photos/event/a/0/5/0/highres_488201040.jpeg" width="300">
+</p>
+
+<p align="center">
     <img src="https://img.shields.io/static/v1?label=STATUS&message=EM%20ANDAMENTO&color=yellow&style=for-the-badge" alt="Status">
 </p>
 
