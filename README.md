@@ -58,6 +58,6 @@ Entregável do Checkpoint 3 de `Advanced Programming & Mobile Dev`, professor:
 
 <p align="center">
     <a href="./LICENSE" target="_blank">
-        <img src="https://img.shields.io/github/license/leolcm/inh-gpsar-web?style=for-the-badge" alt="MIT LICENSE">
+        <img src="https://img.shields.io/github/license/Lbenedettomt/fiap-filmes-mobile?style=for-the-badge" alt="MIT LICENSE">
     </a>
 </p>
